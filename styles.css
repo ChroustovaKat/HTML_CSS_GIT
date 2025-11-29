@@ -1,19 +1,51 @@
+html {height: 100%;}
+
+.menu {
+   background: linear-gradient( rgb(27, 248, 7), #ffffff);
+}
+
+/* da menu do radku*/
+.menu li {
+    display: inline-block;
+}
+
+.menu {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+/* prokliky jsou bile a odsazene*/
+.menu a {
+    display: inline-block;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 30px;
+
+}
+
 /* Apply a style to the entire body */
 body {
     font-family: Arial, sans-serif;
+    height: 100%;
     margin: 40px;
-    background-color: #f4f4f4;
+    background: linear-gradient(#ffffff, rgb(27, 248, 7));
+    background-size: cover;
 }
 
 /* Style for the H1 heading */
 h1 {
-    color: #333366; /* Dark blue color */
-    border-bottom: 2px solid #333366;
+    color: #000000; /* Dark blue color */
+    border-bottom: 2px solid #07f813;
+    padding-top: 10px;
+    padding-left: 10px;
     padding-bottom: 10px;
+    background: linear-gradient( rgb(27, 248, 7), #ffffff);
 }
 
 /* Style for the paragraph */
 p {
-    color: #555555; /* Gray color */
+    color: #000000; /* Gray color */
     line-height: 1.6;
 }
